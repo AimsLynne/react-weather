@@ -5,7 +5,6 @@ export default function Search() {
   return (
     <div className="box">
       <span className="navbar-toggler-icon"></span>
-
       <form className="d-flex" id="search-form" role="search">
         <input
           className="form-control me-2"
@@ -17,14 +16,15 @@ export default function Search() {
         <button className="btn btn-outline-success" type="submit">
           Search
         </button>
-
-        <button
-          type="button"
-          className="btn btn-success"
-          id="current-location-button"
-        >
-          Current
-        </button>
+        <div>
+          <button
+            type="button"
+            className="btn btn-success"
+            id="current-location-button"
+          >
+            Current
+          </button>
+        </div>
       </form>
       <br />
       <div className="d-flex weather-temperature">
@@ -36,7 +36,27 @@ export default function Search() {
       </div>
       <div>
         <strong id="temperature"></strong>
-        <span id="units">{"20°C"}</span>
+        <span id="units">
+          {"20"}{" "}
+          <a
+            href="https://github.com/AimsLynne/react-weather/tree/master"
+            target="_blank"
+            rel="noreferrer"
+            id="celsius"
+            className="active"
+          >
+            °C
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://github.com/AimsLynne/react-weather/tree/master"
+            target="_blank"
+            rel="noreferrer"
+            id="fahrenheit"
+          >
+            °F
+          </a>
+        </span>
       </div>
       <div className="dateTime">
         <h2 id="date-time">Sunday, 17th September 2023</h2>
@@ -56,17 +76,16 @@ export default function Search() {
             Humidity: 20<span className="col-2 humidity" id="humidity"></span>%
           </li>
         </ul>
-        <br />
-        Coded by Amy Brown and{" "}
-        <a
-          href="https://github.com/AimsLynne/weather-app-react"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open sourced
-        </a>{" "}
-        on Github
       </div>
+      Coded by Amy Brown and{" "}
+      <a
+        href="https://github.com/AimsLynne/react-weather"
+        target="_blank"
+        rel="noreferrer"
+      >
+        open sourced
+      </a>{" "}
+      on Github
     </div>
   );
 }
