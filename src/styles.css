@@ -1,0 +1,100 @@
+.box {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 200, 124) 0%,
+    rgb(252, 251, 121) 90%
+  );
+}
+
+.btn-outline-success {
+  background-color: transparent;
+  color: #f96d00;
+  border-color: #f96d00;
+  margin-left: 5px;
+}
+
+.btn-outline-success:hover {
+  background-color: #f96d00;
+  border-color: #f96d00;
+  color: white;
+}
+
+.btn-success {
+  background-color: transparent;
+  color: #f96d00;
+  border-color: #f96d00;
+  margin-left: 5px;
+}
+
+.btn-success:hover {
+  background-color: #f96d00;
+  border-color: #f96d00;
+  color: white;
+}
+
+strong {
+  font-size: 45px;
+}
+strong .temperature .celsius {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+strong .temperature .fahrenheit {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+h3::first-letter {
+  text-transform: capitalize;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.weather-temperature img {
+  margin-right: 5px;
+  height: 120px;
+  width: 120px;
+}
+
+li {
+  position: relative;
+  right: -600px;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+}
+
+.active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
+small {
+  position: relative;
+  right: -160px;
+}
