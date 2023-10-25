@@ -83,9 +83,16 @@ export default function Search() {
         target="_blank"
         rel="noreferrer"
       >
-        open sourced
+        open sourced on Github
       </a>{" "}
-      on Github
+      and{" "}
+      <a
+        href="https://app.netlify.com/sites/dulcet-mermaid-212d7d/overview"
+        target="_blank"
+        rel="noreferrer"
+      >
+        hosted on Netlify
+      </a>
     </div>
   );
 }
