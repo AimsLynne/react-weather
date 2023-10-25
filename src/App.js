@@ -3,7 +3,7 @@ import "./styles.css";
 
 function App() {
   return (
-    <div className="body">
+    <div>
       <Search />
     </div>
   );
