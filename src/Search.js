@@ -91,7 +91,7 @@ export default function Search() {
         target="_blank"
         rel="noreferrer"
       >
-        hosted on Netlify
+        hosted on Netlify.
       </a>
     </div>
   );
